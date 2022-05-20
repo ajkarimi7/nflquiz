@@ -20,9 +20,8 @@ body {
     height: 100vh;
     justify-content: center; 
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: hsl(var(--hue), 100%, 80%);
     
-
 }
 
 body.correct {
@@ -100,4 +99,16 @@ body.wrong {
 
 .hide {
     display: none;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
 }

@@ -49,8 +49,8 @@ function resetState() {
 }
 
 function selectAnswer(e) {
-  const selectedButton = e.target
-  const correct = selectedButton.dataset.correct
+  var selectedButton = e.target
+  var correct = selectedButton.dataset.correct
   setStatusClass(document.body, correct)
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
@@ -188,10 +188,3 @@ const questions = [
   }
 
 ]
-
-for ( let i = 0; i < questions.length; i++ ) {
-
-    if ( question = correct ) {
-      correctAnswers++;
-    }
-  }
